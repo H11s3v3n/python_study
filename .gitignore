@@ -1,0 +1,52 @@
+# =========================
+# Python 常见忽略文件
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# 分发 / 打包
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# 日志 / 临时文件
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# =========================
+# IDE / 编辑器配置
+# =========================
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# =========================
+# 系统文件
+# =========================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
